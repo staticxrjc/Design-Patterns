@@ -1,6 +1,7 @@
 UML Diagram
 ===========
 ```plantuml
+@startuml
 Factory <|-- ConcreteFactory
 Product <|-- ConcreteProduct
 ConcreteFactory <-- ConcreteProduct
@@ -21,4 +22,5 @@ class Product{
 class ConcreteProduct {
 
 }
+@enduml
 ```
