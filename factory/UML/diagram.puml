@@ -5,11 +5,11 @@ ConcreteFactory <-- ConcreteProduct
 
 
 class Factory{
-    - factoryMethod()
+    - Product factoryMethod()
 }
 
 class ConcreteFactory {
-    - Instance()
+    - Product factoryMethod()
 }
 
 class Product{
