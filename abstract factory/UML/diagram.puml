@@ -1,0 +1,15 @@
+@startuml
+Instance <|-- VulkanRootObject
+
+class Factory{
+    -- Contructors & destructors --
+    - Instance()
+    
+    -- Public methods --
+    + Initialize() : bool
+}
+
+class VulkanRootObject {
+    - Instance()
+}
+@enduml
