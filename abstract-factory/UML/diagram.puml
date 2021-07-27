@@ -1,15 +1,22 @@
 @startuml
-Instance <|-- VulkanRootObject
+Factory <|-- ConcreteFactory
+Product <|-- ConcreteProduct
+ConcreteFactory <-- ConcreteProduct
+
 
 class Factory{
-    -- Contructors & destructors --
-    - Instance()
-    
-    -- Public methods --
-    + Initialize() : bool
+    - factoryMethod()
 }
 
-class VulkanRootObject {
+class ConcreteFactory {
     - Instance()
+}
+
+class Product{
+
+}
+
+class ConcreteProduct {
+
 }
 @enduml
