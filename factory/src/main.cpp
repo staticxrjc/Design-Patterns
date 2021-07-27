@@ -1,1 +1,1 @@
-# Abstract Factory Method
+# Factory Method
