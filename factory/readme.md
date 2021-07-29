@@ -9,7 +9,7 @@ Simple Explanation
 Useful when a subclass is not known at compile time and is instead decided during runtime.  For example if at runtime you can choose between making a dog or a cat and it is not known until after compilation the final 'main' code would represent the following.
 ```
 factory animalFactory = new animalFactory;
-animal pet = animalFactor.create(%USER_INPUT%);
+animal pet = animalFactory.create(%USER_INPUT%);
 ```
 %USER_INPUT% can be dog or cat, and which class is created will be determined at that time.
 
