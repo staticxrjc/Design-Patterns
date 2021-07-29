@@ -1,1 +1,5 @@
-# Factory Class
+#include "spaceshipFactory.h"
+
+spaceshipFactory::spaceshipFactory(){
+    
+}
