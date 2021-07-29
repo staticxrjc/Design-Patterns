@@ -30,4 +30,4 @@ The Factory will have a method inside that returns type Product.
 
 Example
 ------
-This example will use a factory to create an 'Alien Spaceship', it will inherit from a Product class called 'spaceship'.  'Alien Spaceship' will be built by an 'Alien Spaceship Factory' which will inherit from 'spaceship factory'...
+This example will use a factory to create an 'Alien Spaceship', it will inherit from a Product class called 'spaceship'.  'Alien Spaceship' will be built by an 'Alien Spaceship Factory' which will inherit from 'spaceship factory'.
