@@ -1,1 +1,6 @@
+class spaceship {
+private:
 
+public:
+
+};

@@ -2,6 +2,6 @@
 #include "alienSpaceshipFactory.h"
 
 int main(){
-    spaceshipFactory factory = new spaceshipFactory();
+    spaceshipFactory* factory = new spaceshipFactory();
     return 1;
 }

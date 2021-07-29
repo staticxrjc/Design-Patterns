@@ -1,1 +1,5 @@
-# Concrete Factory
+#include "alienSpaceshipFactory.h"
+
+alienSpaceshipFactory::alienSpaceshipFactory(){
+
+}
