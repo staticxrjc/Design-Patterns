@@ -6,21 +6,12 @@ Define an interface for creating an object, but let subclasses decide which clas
 
 Simple Explanation
 ---------
-Encapsulates the creation of a class, for example new object of type 'dog' would be declared the following way:
+Useful when a subclass is not known at compile time and is instead decided during runtime.  For example if at runtime you can choose between making a dog or a cat and it is not known until after compilation the final 'main' code would represent the following.
 ```
-dog Buddy("Buddy");
+factory animalFactory = new animalFactory;
+animal pet = animalFactor.create(%USER_INPUT%);
 ```
-or
-```
-dog Buddy = new dog();
-```
-This will instead use a 'factory' to create a dog 'product'
-```
-dogFactory factory = new dogFactory();
-Buddy = dogFactory.makeDog("Buddy");
-```
-
-Instead of constructing the dog 'Buddy' directly by accessing the dog class, it is done through an intermediary factory.  This makes class creation more modular and encapsulates the design.
+%USER_INPUT% can be dog or cat, and which class is created will be determined at that time.
 
 Class Diagram
 --------
@@ -30,4 +21,4 @@ The Factory will have a method inside that returns type Product.
 
 Example
 ------
-This example will use a factory to create an 'Alien Spaceship', it will inherit from a Product class called 'spaceship'.  'Alien Spaceship' will be built by an 'Alien Spaceship Factory' which will inherit from 'spaceship factory'.
+This example will use a factory to create two 'Alien Spaceships', it will inherit from a Product class called 'spaceship'.  'Alien Spaceship' will be built by an 'Alien Spaceship Factory' which will inherit from 'spaceship factory'.  There will be two types of spaceships created, a 'Hostile' spaceship and a 'Friendly' spaceship.  In this example decision making is done at compilation, but easily can be substituted in a runtime environment.
