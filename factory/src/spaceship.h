@@ -1,6 +1,0 @@
-class spaceship {
-private:
-
-public:
-
-};

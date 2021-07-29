@@ -1,0 +1,10 @@
+^C:\USERS\RCOLE\SOURCE\REPOS\DESIGN-PATTERNS\FACTORY\BUILD\CMAKEFILES\DE6AD66F8D3F8A15C80ECFD80DDAA672\GENERATE.STAMP.RULE
+setlocal
+C:\Users\rcole\bin\cmake\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SC:/Users/rcole/source/repos/Design-Patterns/factory -BC:/Users/rcole/source/repos/Design-Patterns/factory/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/rcole/source/repos/Design-Patterns/factory/build/factory.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

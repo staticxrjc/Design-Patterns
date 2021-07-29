@@ -1,7 +1,12 @@
 //Factory Method
-#include "alienSpaceshipFactory.h"
+#include <alienSpaceshipFactory.h>
 
 int main(){
-    spaceshipFactory* factory = new spaceshipFactory();
+    spaceshipFactory* factory = new alienSpaceshipFactory();
+    spaceship* ship = factory->buildSpaceship("hostile");
+    ship->getType();
+    ship = factory->buildSpaceship("friendly");
+    ship->getType();
+    delete factory;
     return 1;
 }
