@@ -17,7 +17,7 @@ Class Diagram
 --------
 The Factory will have a method inside that returns type Product.
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/staticxrjc/Design-Patterns/main/abstract-factory/UML/diagram.puml)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/staticxrjc/Design-Patterns/main/factory/UML/diagram.puml)
 
 Example
 ------
