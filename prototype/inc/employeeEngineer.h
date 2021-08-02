@@ -5,6 +5,6 @@
 class employeeEngineer : public employee {
 public:
     employee* clone();
-    void employee_type() override;
+    void employee_type();
 };
 #endif

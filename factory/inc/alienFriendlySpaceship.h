@@ -3,8 +3,8 @@
 
 class alienFriendlySpaceship : public spaceship {
 private:
-    int speed;
-    std::string name;
+    int mSpeed;
+    std::string mName;
 public:
     void getType();
 };

@@ -8,5 +8,9 @@ int main (){
 
     developer1->employee_type();
     engineer1->employee_type();
+
+    delete employeeMaker;
+    delete developer1;
+    delete engineer1;
     return 1;
 }
