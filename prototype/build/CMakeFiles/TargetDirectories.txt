@@ -1,0 +1,4 @@
+C:/Users/rcole/source/repos/Design-Patterns/prototype/build/CMakeFiles/prototype.dir
+C:/Users/rcole/source/repos/Design-Patterns/prototype/build/CMakeFiles/prototypeMethod.dir
+C:/Users/rcole/source/repos/Design-Patterns/prototype/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/rcole/source/repos/Design-Patterns/prototype/build/CMakeFiles/ZERO_CHECK.dir

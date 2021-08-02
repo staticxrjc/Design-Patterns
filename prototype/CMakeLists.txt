@@ -8,6 +8,10 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 
 add_library(
     prototypeMethod
+    src/employeeFactory.cpp
+    src/employeeEngineer.cpp
+    src/employeeDeveloper.cpp
+    src/employee.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE prototypeMethod)

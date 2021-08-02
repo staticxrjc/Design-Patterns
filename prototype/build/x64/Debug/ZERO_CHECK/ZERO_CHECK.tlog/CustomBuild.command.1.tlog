@@ -1,0 +1,10 @@
+^C:\USERS\RCOLE\SOURCE\REPOS\DESIGN-PATTERNS\PROTOTYPE\BUILD\CMAKEFILES\BB39E8317592E6A41A0FEDF11C033DEC\GENERATE.STAMP.RULE
+setlocal
+C:\Users\rcole\bin\cmake\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SC:/Users/rcole/source/repos/Design-Patterns/prototype -BC:/Users/rcole/source/repos/Design-Patterns/prototype/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/rcole/source/repos/Design-Patterns/prototype/build/prototype.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
