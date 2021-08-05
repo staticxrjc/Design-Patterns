@@ -8,7 +8,9 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 
 add_library(
     builderMethod
-    src/test.cpp
+    src/car.cpp
+    src/carBuilder.cpp
+    src/carSchematic.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE builderMethod)

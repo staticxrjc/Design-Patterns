@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/rcole/source/repos/Design-Patterns/builder/inc
+# Install script for directory: C:/Users/Richard Cole/source/repos/Design Patterns/builder/inc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

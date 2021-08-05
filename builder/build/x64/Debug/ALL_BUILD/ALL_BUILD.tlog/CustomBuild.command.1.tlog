@@ -1,6 +1,6 @@
-^C:\USERS\RCOLE\SOURCE\REPOS\DESIGN-PATTERNS\BUILDER\CMAKELISTS.TXT
+^C:\USERS\RICHARD COLE\SOURCE\REPOS\DESIGN PATTERNS\BUILDER\CMAKELISTS.TXT
 setlocal
-C:\Users\rcole\bin\cmake\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SC:/Users/rcole/source/repos/Design-Patterns/builder -BC:/Users/rcole/source/repos/Design-Patterns/builder/build --check-stamp-file C:/Users/rcole/source/repos/Design-Patterns/builder/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Richard Cole/source/repos/Design Patterns/builder" "-BC:/Users/Richard Cole/source/repos/Design Patterns/builder/build" --check-stamp-file "C:/Users/Richard Cole/source/repos/Design Patterns/builder/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
