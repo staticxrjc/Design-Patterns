@@ -9,9 +9,9 @@ private:
     std::string mFrame;
     std::string mInterior;
 public:
-    virtual void buildEngine(std::string) = 0;
-    virtual void buildChasis(std::string) = 0;
-    virtual void buildFrame(std::string) = 0;
-    virtual void buildInterior(std::string) = 0;
+    virtual void setEngine(std::string) = 0;
+    virtual void setChasis(std::string) = 0;
+    virtual void setFrame(std::string) = 0;
+    virtual void setInterior(std::string) = 0;
 };
 #endif

@@ -5,10 +5,13 @@
 class car : public carSchematic {
 private:
     std::string mChassis;
+    std::string mEngine;
+    std::string mFrame;
+    std::string mInterior;
 public:
-    void buildChasis(std::string);
-    void buildEngine(std::string);
-    void buildFrame(std::string);
-    void buildInterior(std::string);
+    void setChasis(std::string);
+    void setEngine(std::string);
+    void setFrame(std::string);
+    void setInterior(std::string);
 };
 #endif
