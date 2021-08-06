@@ -5,3 +5,5 @@ Practicing the Design Patterns.
 
 **Prototype** - Has set subclasses of prototypes that are copied at runtime.
 
+**Builder** - Allows building of complex objects, that have many different components
+
