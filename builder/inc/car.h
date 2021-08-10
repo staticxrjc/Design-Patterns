@@ -1,6 +1,7 @@
 #ifndef CAR_H
 #define CAR_H
 #include <carSchematic.h>
+#include <iostream>
 
 class car : public carSchematic {
 private:
@@ -13,5 +14,9 @@ public:
     void setEngine(std::string);
     void setFrame(std::string);
     void setInterior(std::string);
+    void getChasis();
+    void getEngine();
+    void getFrame();
+    void getInterior();
 };
 #endif

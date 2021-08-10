@@ -13,6 +13,7 @@ add_library(
     src/carSchematic.cpp
     src/expensiveFordBuilder.cpp
     src/cheapFordBuilder.cpp
+    src/engineer.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE builderMethod)

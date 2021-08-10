@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/car.h
+carSchematic.h
+-
+iostream
+-
+
+../inc/carBuilder.h
+car.h
+-
+
+../inc/carSchematic.h
+string
+-
+
+../inc/expensiveFordBuilder.h
+carBuilder.h
+-
+car.h
+-
+string
+-
+
+/home/rcole/dev/Design-Patterns/builder/src/expensiveFordBuilder.cpp
+expensiveFordBuilder.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbuilderMethod.a  CMakeFiles/builderMethod.dir/src/car.cpp.o CMakeFiles/builderMethod.dir/src/carBuilder.cpp.o CMakeFiles/builderMethod.dir/src/carSchematic.cpp.o CMakeFiles/builderMethod.dir/src/expensiveFordBuilder.cpp.o CMakeFiles/builderMethod.dir/src/cheapFordBuilder.cpp.o CMakeFiles/builderMethod.dir/src/engineer.cpp.o
+/usr/bin/ranlib libbuilderMethod.a

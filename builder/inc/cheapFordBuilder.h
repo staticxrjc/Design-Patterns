@@ -1,11 +1,20 @@
 #ifndef CHEAPFORDBUILDER_H
 #define CHEAPFORDBUILDER_H
-#include <carBuilder>
+#include <carBuilder.h>
+#include <car.h>
+#include <string>
 
 class cheapFordBuilder : public carBuilder {
-    void buildFrame(std::string);
-    void buildChassis(std::string);
-    void buildEngine(std::string);
-    void buildInterior(std::string);
+public:
+    cheapFordBuilder();
+    ~cheapFordBuilder();
+
+private:
+    car* newCar;
+    void buildFrame();
+    void buildChassis();
+    void buildEngine();
+    void buildInterior();
+    car* getCar();
 };
 #endif
