@@ -2,11 +2,11 @@ Builder Method
 ===========
 Definition
 ----------
-...
+Seperate the construction of a coplex object from its representation so that the same construction process can create different representations.
 
 Simple Explanation
 ---------
-...
+Similar to a factory, but this is dealing with a selection of factories. This would be happening during runtime, and a complex object is built.
 ```
 ...
 ```
