@@ -1,0 +1,21 @@
+@startuml
+
+Builder <|-- ConcreteBuilder
+Product <-- ConcreteBuilder
+
+class {
+    - Product factoryMethod()
+}
+
+class ConcreteFactory {
+    - Product factoryMethod()
+}
+
+class Product{
+
+}
+
+class ConcreteProduct {
+
+}
+@enduml
