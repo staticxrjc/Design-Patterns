@@ -1,21 +1,22 @@
 @startuml
-
+Builder <-- Director
 Builder <|-- ConcreteBuilder
 Product <-- ConcreteBuilder
 
-class {
-    - Product factoryMethod()
+class Builder {
+    - BuildPart()
 }
 
-class ConcreteFactory {
-    - Product factoryMethod()
+class Director {
+    - Construct()
+}
+
+class ConcreteBuilder {
+
 }
 
 class Product{
-
-}
-
-class ConcreteProduct {
-
+    - BuildPart()
+    - GetResult()
 }
 @enduml
